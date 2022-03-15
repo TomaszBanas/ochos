@@ -1,0 +1,54 @@
+{
+  "Scripts": [
+    {
+      "Name": "Previous track",
+      "Command": {
+        "Type": "Exe",
+        "Command": "ExeScripts\\KeyPressSimulation.exe",
+        "Args": [
+          "177"
+        ]
+      }
+    },
+    {
+      "Name": "Play/Pause",
+      "Command": {
+        "Type": "Exe",
+        "Command": "ExeScripts\\KeyPressSimulation.exe",
+        "Args": [
+          "179"
+        ]
+      }
+    },
+    {
+      "Name": "Next track",
+      "Command": {
+        "Type": "Exe",
+        "Command": "ExeScripts\\KeyPressSimulation.exe",
+        "Args": [
+          "176"
+        ]
+      }
+    },
+    {
+      "Name": "Volume Down",
+      "Command": {
+        "Type": "Exe",
+        "Command": "ExeScripts\\KeyPressSimulation.exe",
+        "Args": [
+          "174"
+        ]
+      }
+    },
+    {
+      "Name": "Volume Up",
+      "Command": {
+        "Type": "Exe",
+        "Command": "ExeScripts\\KeyPressSimulation.exe",
+        "Args": [
+          "175"
+        ]
+      }
+    }
+  ]
+}
